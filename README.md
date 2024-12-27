@@ -21,7 +21,7 @@ FLock = Federated Learning + Blockchain
 
 ### Introduction
 
-FLock is an open-source framework for building Fedrated Learning systems natively on Blockchain. The combination of Fedrated Learning and Blockchain solves real-life blockers for each other:
+FLock is an open-source framework for building Federated Learning systems natively on Blockchain. The combination of Federated Learning and Blockchain solves real-life blockers for each other:
 
 + **For Federated Learning** : lack of participation incentives and risk of malicious clients can be solved by Blockchain technologies
  
@@ -53,7 +53,7 @@ Our proposed v1 design is robust against attacks
 | Re-identification attack  | Deriving encrypted identity information based on non-identity information in the data | No inter-node dataset transmission in FLock |
 | Tracing attack  | Deriving a person's presence without knowing their actual identification | No inter-node dataset transmission in FLock |
 | Dataset reconstruction attack | Deriving a person’s attributes from a dataset without accessing the data | FLock processed gradients lacks enough information to support such attacks |
-| Model-inversion attack | Observe model output under varied input circumstances to learn about unauthorized training data | FLock's gradient post-process make this attack computationally in tensive |
+| Model-inversion attack | Observe model output under varied input circumstances to learn about unauthorized training data | FLock's gradient post-process makes this attack computationally intensive |
 
 ### Publications
 
@@ -63,7 +63,7 @@ Dong, N., Sun, J., Wang, Z., Zhang, S., & Zheng, S. (2022). *FLock: Defending Ma
 
 ### Developments
 
-We are currently undertaking most of developments in private mode, will add them here once they are released and made public:
+We are currently undertaking most of the developments in private mode, but will add them here once they are released and made public:
 
 + FLock System Design paper: Check out [this repo](https://github.com/FLock-io/FLock_system_design_paper) for details
 
